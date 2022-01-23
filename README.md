@@ -21,6 +21,16 @@ $ pyenv install 3.8.0
    * `pyenv local 3.8.0`
    * `python -m venv .venv`
 * Активуйте віртуальне середовище
-   * `source .venv / bin / activate`
+   * `source .venv/bin/activate`
+* Встановіть проект:
+   * `python -m pip install -e.`
+
+
+З головної папки виконайте такі дії (на Windows, у терміналі GitBash):
+
+* Встановіть віртуальне середовище Python для цього проекту
+   * `python -m venv .venv`
+* Активуйте віртуальне середовище
+   * `source .venv/Scripts/activate`
 * Встановіть проект:
    * `python -m pip install -e.`
